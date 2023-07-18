@@ -1,0 +1,10 @@
+[package]
+name = "grpc-gpu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.16.2"
+pollster = "0.3.0"
+bytemuck = "1.13.1"
+rand = "0.8.5"
