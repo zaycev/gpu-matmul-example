@@ -2,7 +2,6 @@ struct Matrix {
     data: array<f32>,
 };
 
-
 @group(0) @binding(0) var<storage>        matrix_a:  Matrix;
 @group(0) @binding(1) var<storage>        matrix_b:  Matrix;
 @group(0) @binding(2) var<storage, write> matrix_c:  Matrix;
