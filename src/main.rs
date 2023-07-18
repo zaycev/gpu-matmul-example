@@ -231,5 +231,5 @@ fn main() {
         // c2.print();
     }
 
-    println!("Equal: {}", c1.eq(&c2, 0.1));
+    println!("Equal: {}", c1.eq(&c2, 0.01));
 }
